@@ -1,0 +1,37 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  app-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+  }
+  
+  app-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+  }
+  
+  router-outlet {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    min-height: calc(100% - 100px); /* 60px for header + 40px for footer */
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  

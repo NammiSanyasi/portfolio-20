@@ -1,0 +1,50 @@
+/* Styles for the component */
+:host {
+    display: block;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the buttons */
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the iframe */
+  iframe {
+    border: none;
+    display: block;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
